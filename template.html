@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLO KARL BERGER — Paper.design Template</title>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<style>
+  /* Template overrides for Paper canvas */
+  html, body { overflow: auto; height: auto; }
+
+  .page-frame {
+    position: relative;
+    width: 1280px;
+    min-height: 800px;
+    background: var(--blue);
+    padding: var(--pad);
+    padding-bottom: 80px;
+    transform: scaleY(1.15);
+    transform-origin: top left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+
+  .frame-label {
+    position: absolute;
+    top: -40px; left: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transform: scaleY(calc(1 / 1.15));
+    transform-origin: bottom left;
+  }
+
+  /* Show all rows statically */
+  .page-frame .r { display: inline-block; }
+
+  /* Simulate highlight on specific rows */
+  .page-frame .r.demo-hi {
+    color: var(--blue) !important;
+    background: var(--bright) !important;
+  }
+
+  .canvas-wrapper {
+    padding: 60px 40px;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="canvas-wrapper">
+
+  <!-- ═══════ MENU STATE ═══════ -->
+  <div class="page-frame">
+    <div class="frame-label">Menu</div>
+    <div class="r big c-dim">──── MENU ────</div>
+    <div class="r big c-dim mt-lg">FLO KARL BERGER</div>
+    <div class="r big c-white indent demo-hi mt-sm">BIO</div>
+    <div class="r big c-white indent">WORKS</div>
+    <div class="r big c-white indent">GROUPS</div>
+    <div class="r big c-white indent">CONTACT</div>
+    <div class="r sml c-dim indent mt-sm">IDIOMA/LANGUE:DE</div>
+    <div class="r sml c-dim mt-lg">SELECT:▲ ▼ KEY</div>
+    <div class="r sml c-dim">SET   :▶ KEY</div>
+    <div class="r sml c-dim">END   :ACTION KEY</div>
+  </div>
+
+  <!-- ═══════ BIO STATE ═══════ -->
+  <div class="page-frame">
+    <div class="frame-label">Bio (EN)</div>
+    <div class="r big c-dim">──── BIO ────</div>
+    <div class="r big c-white mt-lg">WORKING WITH THE</div>
+    <div class="r big c-white">SOCIAL, POLITICAL,</div>
+    <div class="r big c-white">AND MATERIAL</div>
+    <div class="r big c-white">EXPRESSION OF</div>
+    <div class="r big c-white demo-hi">ASSEMBLY</div>
+    <div class="r sml c-dim mt-lg">TEMPORARY SCULPTURAL SITUATIONS</div>
+    <div class="r sml c-dim">FOCUSED ON TIME, MEMORY, AND THE</div>
+    <div class="r sml c-dim">COLLECTIVE STRUCTURES OF RITUAL.</div>
+    <div class="r sml c-dim mt-md">CEMETERY GARDENER. GRAVESTONE</div>
+    <div class="r sml c-dim">DESIGNER. FUNERARY PROCESSIONS</div>
+    <div class="r sml c-dim">FROM ASSEMBLAGES OF OVERWRITTEN</div>
+    <div class="r sml c-dim">SITES. SQUATTERS INITIATIVES IN</div>
+    <div class="r sml c-dim">VIENNA, LJUBLJANA, HELSINKI.</div>
+    <div class="r sml c-white mt-md">BASED IN VIENNA / BURGENLAND</div>
+    <div class="r big back-btn mt-xl">◀ BACK TO MENU</div>
+  </div>
+
+  <!-- ═══════ WORKS STATE ═══════ -->
+  <div class="page-frame">
+    <div class="frame-label">Works</div>
+    <div class="r big c-dim">──── WORKS ────</div>
+    <div class="r big c-white demo-hi mt-lg">FRIEDHOF SESSIONS IV</div>
+    <div class="r sml c-dim">2024  ZENTRALFRIEDHOF, VIENNA  SCULPTURAL PROCESSION</div>
+    <div class="r big c-white mt-sm">WIR BLEIBEN ALLE</div>
+    <div class="r sml c-dim">2023  GRUPPE BUSSI / PUBLIC SPACE, GRAZ  PARTICIPATORY INTERVENTION</div>
+    <div class="r big c-white mt-sm">TAFEL//TISCH//GRAB</div>
+    <div class="r sml c-dim">2023  KUNSTRAUM NIEDEROESTERREICH  INSTALLATION</div>
+    <div class="r big c-white mt-sm">OVERWRITTEN SITES I-III</div>
+    <div class="r sml c-dim">2022  VARIOUS SQUATS, LJUBLJANA  ASSEMBLAGE SERIES</div>
+    <div class="r big c-white mt-sm">CUSTOM STONES</div>
+    <div class="r sml c-dim">2022  COMMISSIONED / BURGENLAND  GRAVESTONE DESIGN</div>
+    <div class="r big c-white mt-sm">SKATEPARK RITUALS</div>
+    <div class="r sml c-dim">2021  ST. MARX INITIATIVE, VIENNA  COMMUNITY WORKSHOP</div>
+    <div class="r big c-white mt-sm">CARE STRUCTURES</div>
+    <div class="r sml c-dim">2020  HELSINKI / SUVILAHTI  SITE-SPECIFIC SCULPTURE</div>
+    <div class="r big c-white mt-sm">PANNONISCHE PROCESSIONS</div>
+    <div class="r sml c-dim">2019  BURGENLAND REGION  FUNERARY ASSEMBLAGE</div>
+    <div class="r big c-white mt-sm">GARDEN FOR THE DEAD</div>
+    <div class="r sml c-dim">2018  WIENER NEUSTADT  SCULPTURAL SITUATION</div>
+    <div class="r big back-btn mt-xl">◀ BACK TO MENU</div>
+  </div>
+
+  <!-- ═══════ GROUPS STATE ═══════ -->
+  <div class="page-frame">
+    <div class="frame-label">Groups</div>
+    <div class="r big c-dim">──── GROUPS ────</div>
+    <div class="r big c-white mt-lg">PANNONISCHE TAFEL</div>
+    <div class="r sml c-dim">SINCE 2008  FOODBANK + SOCIAL OUTREACH / BURGENLAND</div>
+    <div class="r big c-white mt-sm">ST. MARX INITIATIVE</div>
+    <div class="r sml c-dim">SINCE 2012  DIY SKATEPARK + COMMUNITY WORKSHOPS / WIEN III</div>
+    <div class="r big c-white mt-sm">GRUPPE BUSSI</div>
+    <div class="r sml c-dim">SINCE 2015  ANARCHIST ART COLLECTIVE / PARTICIPATORY PUBLIC INTERVENTIONS</div>
+    <div class="r sml c-white mt-lg">STRATEGIES FOR A BETTER</div>
+    <div class="r sml c-white">WORLD THROUGH CARING,</div>
+    <div class="r sml c-white">LOCAL RELATIONSHIPS</div>
+    <div class="r big back-btn mt-xl">◀ BACK TO MENU</div>
+  </div>
+
+  <!-- ═══════ CONTACT STATE ═══════ -->
+  <div class="page-frame">
+    <div class="frame-label">Contact</div>
+    <div class="r big c-dim">──── CONTACT ────</div>
+    <div class="r big c-dim mt-lg">MAIL</div>
+    <div class="r big c-white demo-hi">FLO@GRUPPEBUSSI.ORG</div>
+    <div class="r big c-dim mt-md">SIGNAL</div>
+    <div class="r big c-white">ON REQUEST</div>
+    <div class="r sml c-dim mt-lg">NO INSTAGRAM</div>
+    <div class="r sml c-dim">NO PORTFOLIO PDF</div>
+    <div class="r sml c-dim">COME TO THE OPENING</div>
+    <div class="r big back-btn mt-xl">◀ BACK TO MENU</div>
+  </div>
+
+</div>
+
+</body>
+</html>
